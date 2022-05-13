@@ -1,8 +1,11 @@
 import React from "react";
+import "./styles/sections.css";
  const About = () => {
      return(
          <>
-         <h1>zz</h1>
+         <div className="">
+             <h1 className=""></h1>
+         </div>
          </>
      )
  }

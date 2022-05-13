@@ -1,0 +1,14 @@
+.tittleabout{
+    font-family:Verdana,Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+.containterabout{
+    width: 45%;
+    margin: 15% auto;
+    margin-left: 15%;
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+}
