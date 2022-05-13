@@ -128,22 +128,22 @@ function Portafolio() {
       <Navigation clicked={click}>
         <List>
           <li>
-            <ItemLink onClick={handleClick} to="/">
+            <ItemLink onClick={handleClick} to="/Home">
               Home
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/about">
+            <ItemLink onClick={handleClick} to="/About">
               About
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/portfolio">
+            <ItemLink onClick={handleClick} to="/Portfolio">
               Portfolio
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/blog">
+            <ItemLink onClick={handleClick} to="/Skills">
              Skills
             </ItemLink>
           </li>
