@@ -1,8 +1,15 @@
 import React from "react";
+import "./styles/sections.css";
+import Card from "../subsections/skillscomponents"
  const Skills = () => {
      return(
          <>
-         <h1>My Skills</h1>
+         <div className="cardcontainer">
+             <Card/>
+             <Card/>
+             <Card/>
+             <Card/>
+         </div>
          </>
      )
  }

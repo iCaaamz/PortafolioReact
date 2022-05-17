@@ -5,10 +5,29 @@
     padding-top: 8%;
     padding-left: 8%;
 }
-.containterabout{
+.containerabout{
     width: 45%;
     margin: 15% auto;
-    margin-left: 15%;
+    margin-left: 40%;
     border: solid 1px rgb(255, 255, 255);
     color: white;
+}
+
+.acabout{
+    padding-left: 2%;
+    font-size: 3rem;
+}
+.pabout{
+    padding-left: 2%;
+    font-size: 3rem;
+}
+
+
+.cardcontainer{
+    padding-top: 15%;
+    display:flex;
+    justify-content: space-around;
+}
+.cardhtml{
+
 }
