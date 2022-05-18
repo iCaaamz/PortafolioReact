@@ -1,15 +1,14 @@
 import React from "react";
 import "./styles/sections.css";
-import Card from "../subsections/skillscomponents"
+import "./styles/skills.css"
+import Cards from "../subcomponents/Cards";
  const Skills = () => {
      return(
          <>
-         <div className="cardcontainer">
-             <Card/>
-             <Card/>
-             <Card/>
-             <Card/>
+         <div className="skillscont">
+           <Cards/>
          </div>
+
          </>
      )
  }

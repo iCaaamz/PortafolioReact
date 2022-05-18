@@ -7,8 +7,6 @@ import Contact from './components/sections/Contac';
 import Portfolio from './components/sections/Portfolio';
 import Skills from './components/sections/Skills';
 
-
-
 function App() {
   return (
     <>
