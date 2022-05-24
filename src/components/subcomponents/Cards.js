@@ -30,6 +30,7 @@ function Cards() {
   return (
     <div className='container d-flex justify-content-center h-100 align-items-center'>
       <div className='row'>
+      <h1 className="titskills">SKILLS</h1>
         {
           cards.map(card =>(
             <div className="col-md-3" key={card.id}>

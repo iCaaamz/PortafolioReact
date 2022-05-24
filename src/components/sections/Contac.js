@@ -1,8 +1,13 @@
 import React from "react";
+import "./styles/contact.css"
  const Contact = () => {
      return(
          <>
-         <h1>My Social Media</h1>
+         <main>
+         <div>
+             <h1>MY SOCIAL MEDIA</h1>
+         </div>
+         </main>
          </>
      )
  }

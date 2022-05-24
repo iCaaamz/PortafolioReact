@@ -5,10 +5,11 @@ import Cards from "../subcomponents/Cards";
  const Skills = () => {
      return(
          <>
-         <div className="skillscont">
-           <Cards/>
+         <div> 
+           <div className="skillscont">
+            <Cards/>
+           </div>
          </div>
-
          </>
      )
  }

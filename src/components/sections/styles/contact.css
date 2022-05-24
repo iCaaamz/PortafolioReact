@@ -1,8 +1,9 @@
-.skillscont{
-    height: 100vh;
+main{
+    text-align: center;
+    padding-top: 5%;
 }
-.titskills{
+
+h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 5vh;
-    text-align: center;
 }
