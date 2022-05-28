@@ -1,9 +1,55 @@
-main{
-    text-align: center;
-    padding-top: 5%;
+* {
+    font-family: Quicksand ;
+    box-sizing: border-box;
 }
 
-h1{
-    font-family: 'Times New Roman', Times, serif;
+.h1contact{
+    font-family: Quicksand ;
     font-size: 5vh;
+    text-align: center;
+}
+.h1contact span{
+    color: #b70e21;
+}
+.containercontact{
+    background-color: black;
+    color: white;
+    padding: 0 1.5em;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
+}
+.contact-wrapper > * {
+    padding: 1em;
+}
+.contact-form{
+    background-color: #222222;
+}
+.contact-form form{
+    margin: 0;
+    padding: 1em;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #b70e21;
+    color:azure;
+}
+.contact-form form button{
+    background: #b70e21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-info{
+    background-color:rgb(0, 0, 0);
 }
