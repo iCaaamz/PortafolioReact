@@ -3,6 +3,7 @@ import "./styles/contact.css"
  const Contact = () => {
      return(
          <>
+         <div className="supercontainer">
          <div className="containercontact">
              <h1 className="h1contact">CONTACT TO <span>ME</span></h1>
              <div className="contact-wrapper">
@@ -21,11 +22,11 @@ import "./styles/contact.css"
                              <label for="affair">Affair</label>
                              <input type="text" name="affair" id="affair"/>
                          </p>
-                         <p>
+                         <p className="block">
                              <label for="message">Message</label>
                              <textarea name="message" id="message" rows="3"></textarea>
                          </p>
-                         <p>
+                         <p className="block">
                              <button type="submit">
                                  Send
                              </button>
@@ -47,6 +48,7 @@ import "./styles/contact.css"
                      </p>
                  </div>
              </div>
+         </div>
          </div>
          </>
      )
